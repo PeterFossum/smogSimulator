@@ -2,7 +2,13 @@
 @import "bootstrap";
 
 body {
+  color: #cccc99;
   padding-top: 60px;
+  background-color: #003333;
+}
+
+.jumbotron {
+  background-color: #707099;
 }
 
 section {
@@ -19,4 +25,35 @@ textarea {
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #cccc99;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
